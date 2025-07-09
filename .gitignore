@@ -1,0 +1,14 @@
+# .NET / Visual Studio
+bin/
+obj/
+.vscode/
+*.user
+*.suo
+
+# SQL Server
+*.mdf
+*.ldf
+*.bak
+
+# Secrets
+.env
