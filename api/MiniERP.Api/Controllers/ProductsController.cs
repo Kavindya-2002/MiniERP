@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using MiniERP.Data;
 using MiniERP.Models;
 
-namespace MiniERP.Controllers
+namespace MiniERP.Api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
