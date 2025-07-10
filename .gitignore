@@ -1,14 +1,22 @@
-# .NET / Visual Studio
+# Ignore VS + build folders
+.vs/
 bin/
 obj/
-.vscode/
 *.user
 *.suo
 
-# SQL Server
-*.mdf
-*.ldf
-*.bak
+# Ignore compiled files
+*.dll
+*.exe
+*.pdb
 
-# Secrets
-.env
+# Ignore EF Migrations cache (optional)
+Migrations/
+
+# Ignore secrets
+appsettings.Development.json
+appsettings.Local.json
+
+# Others
+*.log
+*.db
