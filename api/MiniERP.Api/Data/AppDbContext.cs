@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using MiniERP.Api.Models;
-using MiniERP.Models; // This assumes you’ll create models like Product.cs
+using MiniERP.Models; 
 
 namespace MiniERP.Data
 {
@@ -11,5 +11,7 @@ namespace MiniERP.Data
 
         public DbSet<Product> Products { get; set; } 
         public DbSet<Customer> Customers { get; set; }
+        public DbSet<Sale> Sales { get; set; }
+
     }
 }
